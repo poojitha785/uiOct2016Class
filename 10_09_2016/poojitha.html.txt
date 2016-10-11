@@ -1,9 +1,0 @@
-<DOCTYPE! html>
-<html>
-     <head>
-       <title> poojitha </title>
-     </head>
-     <body>
-        This is body
-     </body>
-</html>
