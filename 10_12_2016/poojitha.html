@@ -1,0 +1,110 @@
+<!--determines document type -->
+<!DOCTYPE html>
+
+<!--determines html language to be english-->
+<html lang="en">
+
+    <!--head starts-->
+    <head>
+        <!--title of html file-->
+        <title>Employee Form</title>
+        <!--style - CSS of webpage is written in style-->
+        <style>
+        </style>
+        <!--script - javascript of the webpage is written in the script-->
+        <script>
+        </script>
+        <!--link - this is used to link an external source like css and images-->
+        
+        <link rel="" href=""/>
+
+        <!--base -to write base URL-->
+
+        <base href= />
+
+        <!--meta for the html-->
+        <meta name="description" content="using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen"/>
+        <meta name="keywords" content="resize, hide,responsive,web designing, development" />
+        <meta charset="UTF-8" />
+    </head>
+
+    <!--body of the web page-->
+    <body>
+        <!-- article starts here-->
+        <article>
+
+            <!--page header-->
+            <header>
+                <h1>EMPLOYEE FORM</h1>
+            </header>
+
+            <!--main body-->
+            <section>
+                <!--employee form starts here-->
+                <form name="employeeform">
+                    <!--textbox First Name-->
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="fName" placeholder="First Name"/>
+                    </div>
+                    <br />
+                    <!--textbox Last Name-->
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lName" placeholder="Last Name" />
+                    </div>
+                    <br />
+                    <!--textbox Phone Number-->
+                    <div>
+                        <label for="phoneNumber"> Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                    </div>
+                    <br />
+                    <!--radio Gender-->
+                    <div>
+                        <label for="gender"> Gender:</label>
+                        <div id="gender">
+                            <!--for male-->
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+
+                            <!--for female-->
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="Female"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <!--textbox email-->
+                    <div>
+                        <label for="email"> Email</label>
+                        <input type="text" id="email" name="email" placeholder="email"/>
+                    </div>
+                    <br/>
+                    <!--textbox Password-->
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="password"/>
+                    </div>
+                    <br />
+                    <!--checkbox terms and conditions-->
+                    <div>
+                        <label for="I agree for terms and condtions"></label>
+                        <input type="checkbox" id="Iagree"/> I agree for terms and conditions 
+                    </div>
+                    <br/>
+                    <!--submit button-->
+                    <button type="submit" id="submit" class="submit"> Submit
+                    </button>
+                    <!--reset/cancel-->
+                    <button type="reset" id="reset" >Cancel
+                    </button>
+                </form>
+            </section>
+            <br/>
+            <!--page footer-->
+            <footer>
+                FORM ENDS
+            </footer>
+        </article>
+    </body>
+</html>
