@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--head starts-->
+    <head>
+        
+        <title>Employee Form</title>
+        <!--linking css file-->
+        <link rel="stylesheet" href="../Styles/mecss.css"
+        <meta name="description" content="using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen"/>
+        <meta name="keywords" content="resize, hide,responsive,web designing, development" />
+        <meta charset="UTF-8" />
+    </head>
+
+    <!--body of the web page-->
+    <body>
+        
+        <article>
+            <header>
+                <h1>EMPLOYEE FORM</h1>
+            </header>
+
+            <!--main body-->
+            <section>
+                <!--employee form starts here-->
+                <form name="employeeform">
+                    
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="fName" placeholder="First Name"/>
+                    </div>
+                    <br />
+                    
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lName" placeholder="Last Name" />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="phoneNumber"> Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="gender"> Gender:</label>
+                        <div id="gender">
+                            <!--for male-->
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+                            <!--for female-->
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="Female"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="email"> Email</label>
+                        <input type="text" id="email" name="email" placeholder="email"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="password"/>
+                    </div>
+                    <br />
+                    <div>
+                        <label for="I agree for terms and condtions"></label>
+                        <input type="checkbox" id="Iagree"/> I agree for terms and conditions 
+                    </div>
+                    <br/>
+                    <!--submit button-->
+                    <button type="submit" id="submit" class="submit"> Submit
+                    </button>
+                    <!--reset/cancel-->
+                    <button type="reset" id="reset" >Cancel
+                    </button>
+                </form>
+            </section>
+            <br/>
+            <!--page footer-->
+            <footer>
+                FORM ENDS
+            </footer>
+        </article>
+    </body>
+</html>

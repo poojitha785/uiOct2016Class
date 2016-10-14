@@ -1,0 +1,54 @@
+form
+  {
+      border: 2px solid #1fe63c;
+    
+  }
+label
+  {
+      display: block;
+  }
+
+#firstname
+  {
+      display: block;
+       
+  }
+
+#lastname
+  { 
+       display: block;
+      
+  }
+
+#phonenumber
+  { 
+       display: block;
+  }
+
+#gender
+  { 
+       display: block;
+      
+  }
+
+#email
+  { 
+       display: block;
+      
+  }
+
+#submit
+  { 
+      display: block;
+      background-color: #6199ee;
+      color: #fff;
+      
+  }
+
+#reset
+  { 
+      display: block;
+      background-color: #ef383a;
+      color: #fff;
+      
+  }
