@@ -1,0 +1,2 @@
+1) What is difference between service and factory in Angular JS and where would you use it?
+2)

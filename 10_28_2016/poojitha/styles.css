@@ -1,0 +1,153 @@
+form
+{     
+    width: 300px;   
+    border: 4px solid #000;
+    background-color:rgba(255,255,255,0.2);
+    margin-left: 700px;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    position: absolute;
+    
+}
+
+div
+{
+    display: inline-block;
+}
+
+
+input
+{
+    padding: 3px;
+    margin: 3px;
+    display: inline-block;
+    
+}
+
+input[type=text] 
+{
+    border: 4px solid #e4402b;
+    border-radius: 2px;
+}
+
+
+label
+{
+    padding: 3px;
+    font: bold;
+    font-size: 20px;
+    margin: 3px;
+    display: block;
+    font-family: cursive;
+    color: #e4402b;
+}
+
+
+button[type="submit"]
+{
+    padding: 5px;
+    margin: 5px;
+    background-color:#e0be3d;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000;
+	display:inline-block;
+	cursor:pointer;
+	color:#e4402b;
+	font-family:Arial;
+	font-size:17px;
+    
+	   
+}
+
+
+ul
+{   
+   
+    list-style-type: none;
+    margin-bottom: 150px;
+    text-align: center;
+    
+}
+
+ul
+{
+    
+    font-family:cursive;
+    font-size: 15px;
+    color: #e4402b;
+    font-weight: bold;
+    display: inline;
+    float: left;   
+}
+
+
+li
+{
+    display: inline;
+    padding: 30px;    
+}
+
+header
+{   position: absolute;
+    background-color:#000;
+    display: block;
+    height: 50px;
+    padding: 15px;
+    width:100%;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+      
+}
+
+
+a
+{   text-align: center;
+    font-family: cursive;
+    float: left;
+    font-size:30px;
+    color:#e4402b;
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    
+}
+
+footer
+{
+    position:absolute;
+    background-color:#000;
+    display: block;
+    padding:15px;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+body
+{
+    background-image: url(WDF_2550010.jpg);
+    background-repeat:no-repeat;
+    background-size: 1400px 800px;
+   
+}
+
+h1
+{
+    font-family:cursive;
+    font-size: 60px;
+    color: #e44025;
+    font-weight: bold;
+    position:absolute;
+    left:500px;
+}
+
+
+

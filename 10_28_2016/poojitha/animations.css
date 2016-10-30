@@ -1,0 +1,163 @@
+header
+{
+    -webkit-animation: headerdown 3s 1;
+    -moz-animation: headerdown 3s 1;
+    -o-animation: headerdown 3s 1;
+    -ms-animation: headerdown 3s 1;
+    animation: headerdown 3s 1;
+    transition-timing-function: ease-in;
+    
+}
+
+
+@Keyframes headerdown
+{ 
+    0%
+    {
+    top:-80px;
+    }
+    100%
+    {
+    top:0px;
+    }
+
+}
+    
+    
+footer
+{
+
+    -webkit-animation:footerup 3s 1;
+    -moz-animation:footerup 3s 1;
+    -o-animation:footerup 3s 1;
+    -ms-animation:footerup 3s 1;
+    animation:footerup 3s 1;
+    transition-timing-function:ease-in;
+    
+}
+   
+@Keyframes footerup
+{ 
+    0%
+    {
+    bottom:-80px;
+    }
+    100%
+    {
+    bottom:0px;
+    }    
+    
+}
+
+
+
+ form
+{
+    -webkit-transition:all 1s linear;
+    -moz-transition:all 1s linear;
+    -o-transition:all 1s linear;
+    -ms-transition:all 1s linear;
+    transition:all 1s linear;
+     -webkit-animation:leftcome 3s 1;
+    -moz-animation:leftcome 3s 1;
+    -o-animation:leftcome 3s 1;
+    -ms-animation:leftcome 3s 1;
+    animation:leftcome 3s 1;
+    transition-timing-function:ease-in;
+}
+
+
+@Keyframes leftcome
+{ 
+    0%
+    {
+    right:-300px;
+    }
+    100%
+    {
+    right:293px;
+    }    
+    
+}
+  
+    
+form:hover
+{    
+    background-color:rgba(255,255,255,1);
+    
+}
+
+
+
+a:hover
+{
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+    color: #cbf158;
+}
+
+h1
+{
+    -webkit-animation:comeright 4s 1;
+    -moz-animation:comeright 4s 1;
+    -o-animation:comeright 4s 1;
+    -ms-animation:comeright 4s 1;
+    animation:comeright 4s 1;
+    transition-timing-function: ease-in;
+    -webkit-transition:all 1s linear;
+    -moz-transition:all 1s linear;
+    -o-transition:all 1s linear;
+    -ms-transition:all 1s linear;
+    transition:all 1s linear;
+    
+}
+
+
+@Keyframes comeright
+{ 
+    0%
+    {
+    left:-80px;
+    }
+    100%
+    {
+    left:500px;
+    }
+
+}
+
+h1:hover
+
+{
+    background: #cbf15a;
+    border-color: #000;
+    border-width: 20px;
+    border-radius: 10px;
+    -webkit-transform: translate(-350px,100px);
+    -moz-transform: translate(-350px,100px);
+    -o-transform: translate(-350px,100px);
+    -ms-transform: translate(-350px,100px);
+    transform: translate(-350px,100px);
+    font-size: 100px;
+    transition-timing-function: ease-in;
+      
+}
+
+button[type="submit"]:hover
+
+{
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -0-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    transition-timing-function: ease-in;
+}
+
+
+
+
+    
